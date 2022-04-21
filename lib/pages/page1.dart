@@ -29,6 +29,7 @@ class _page1State extends State<page1> {
       
       body: Center(
         child: Column(
+        
           children: [
            Padding(
              padding: const EdgeInsets.all(8.0),
@@ -41,27 +42,78 @@ class _page1State extends State<page1> {
            SizedBox(height: 30,),
            Center(
              child: Wrap(
+               runSpacing: 10,
                children: [
         
-               homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-               SizedBox(width: 20,),
-                homebulle(titre: 'bouton', description: "ceci est la description", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.favorite ,Page:page1(), radius_t:10,  context:context,  longueur:100,largeur:180),
+                SizedBox(width: 20,),
+                homebulle(titre: 'bouton', description: "ceci est la description", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,longueur:100, largeur:180),
                 SizedBox(height: 10,),
-                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-               SizedBox(width: 20,),
-                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-                
-              homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-               SizedBox(width: 20,),
-                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-                
-              
-
-
+               
                ],
              ),
+             
            ),
-            
+          
+            Wrap(
+              spacing: 15,
+              
+              children: [
+               homebulle( titre_color: Colors.black,
+                 description_color:Colors.black,
+                  button_color: Colors.red,
+                   border_color:Colors.blue,
+                    icon_color:Colors.green,
+                     Icon_size:10,
+                     icon:Icons.person ,
+                     Page:page1(), 
+                     radius_t:30,
+                       context:context,
+                        longueur:50,
+                         largeur:50,
+               ),
+                homebulle( titre_color: Colors.black,
+                 description_color:Colors.black,
+                  button_color: Colors.green,
+                   border_color:Colors.blue,
+                    icon_color:Colors.green,
+                     Icon_size:10,
+                     icon:Icons.shop ,
+                     Page:const page1(),
+                      radius_t:30,
+                       context:context,
+                        longueur:50,
+                         largeur:50,
+                ),
+                 homebulle( titre_color: Colors.black,
+                 description_color:Colors.black,
+                  button_color: Colors.yellow,
+                   border_color:Colors.blue,
+                    icon_color:Colors.green,
+                     Icon_size:10,
+                     icon:Icons.circle ,
+                     Page:const page1(), 
+                     radius_t:30,
+                       context:context,
+                        longueur:50,
+                         largeur:50,
+                 ),
+                  homebulle( titre_color: Colors.black,
+                 description_color:Colors.black,
+                  button_color: Colors.blue,
+                   border_color:Colors.blue,
+                    icon_color:Colors.green,
+                     Icon_size:10,
+                     icon:Icons.settings,
+                     Page:const page1(),
+                      radius_t:30,
+                       context:context,
+                        longueur:50,
+                         largeur:50,
+                  ),
+
+                
+              ],)
            
             
         ]),

@@ -16,16 +16,16 @@ GestureDetector homebulle(
    Widget ? Page,
    double ? radius_t,
    context,
-   int ? longueur,
-   int ? largeur}
+   double ? longueur,
+   double ? largeur}
 ){
   return GestureDetector(
     onTap: () {
     
     },
     child:  Container(
-                height: 150,
-                width: 180,                
+               height: longueur,
+                width: largeur,                
                 decoration: BoxDecoration(
                   color:button_color,
                   borderRadius: BorderRadius.circular(radius_t!),
@@ -38,8 +38,10 @@ GestureDetector homebulle(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(icon),
-                      Text( titre!, style: TextStyle(color: titre_color),), 
-                      Text(description!, style: TextStyle(color: description_color),)
+                      Visibility(visible:titre==null?false:true ,
+                        child: Text( titre==null?"":titre, style: TextStyle(color: titre_color),)
+                        ), 
+                      Text(description==null?"":description, style: TextStyle(color: description_color),)
 
                   ]),
                 ),
