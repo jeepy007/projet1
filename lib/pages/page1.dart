@@ -39,25 +39,27 @@ class _page1State extends State<page1> {
              enlargeCenterPage: true)),
            ),
            SizedBox(height: 30,),
-           Wrap(
-             children: [
+           Center(
+             child: Wrap(
+               children: [
         
-             homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-             SizedBox(width: 20,),
-              homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-              SizedBox(),
-              homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-             SizedBox(width: 20,),
-              homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+               homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+               SizedBox(width: 20,),
+                homebulle(titre: 'bouton', description: "ceci est la description", titre_color: Colors.black, description_color:Colors.black, button_color: Colors.white, border_color:Colors.blue, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+                SizedBox(height: 10,),
+                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+               SizedBox(width: 20,),
+                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+                
+              homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+               SizedBox(width: 20,),
+                homebulle(titre: 'bouton', description: "ceci est la description ", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
+                
               
-            homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.blue, description_color:Colors.yellow, button_color: Colors.red, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-             SizedBox(width: 20,),
-              homebulle(titre: 'bouton', description: "ceci est la description de mon bouton", titre_color: Colors.green, description_color:Colors.blue, button_color: Colors.grey, border_color:Colors.black, icon_color:Colors.green, Icon_size:10,icon:Icons.home ,Page:page1(), radius_t:10,  context:context,  longueur:100, largeur:180),
-              
-            
 
 
-             ],
+               ],
+             ),
            ),
             
            
