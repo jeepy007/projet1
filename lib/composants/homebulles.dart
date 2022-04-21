@@ -21,7 +21,12 @@ GestureDetector homebulle(
 ){
   return GestureDetector(
     onTap: () {
-    
+        Navigator.of(context).pushReplacement
+      (MaterialPageRoute(builder:(_)=>
+      Page!,
+      ),
+      );
+      
     },
     child:  Container(
                height: longueur,

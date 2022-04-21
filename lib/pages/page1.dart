@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projet1/composants/homebulles.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:projet1/composants/linebutton.dart';
 
 
 class page1 extends StatefulWidget {
@@ -113,8 +114,48 @@ class _page1State extends State<page1> {
                   ),
 
                 
-              ],)
-           
+              ],),
+              Column(
+                children: [
+                  linebutton(titre_color: Colors.blue,
+                  titre: 'Nouveau bouton',
+
+
+                  ),
+                ],
+              ),
+              Divider(),
+               Column(
+                children: [
+                  linebutton(titre_color: Colors.blue,
+                  titre: 'Nouveau bouton',
+
+
+                  ),
+                ],
+              ),
+              Divider(),
+               Column(
+                children: [
+                  linebutton(titre_color: Colors.blue,
+                  titre: 'Nouveau bouton',
+
+
+                  ),
+                ],
+              ),
+              Divider(),
+               Column(
+                children: [
+                  linebutton(titre_color: Colors.blue,
+                  titre: 'Nouveau bouton',
+
+
+                  ),
+                ],
+              ),
+              
+              
             
         ]),
       ),
