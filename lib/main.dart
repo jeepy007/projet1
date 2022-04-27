@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projet1/pages/connexion.dart';
 import 'package:projet1/pages/page1.dart';
 import 'package:projet1/pages/page2.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: page2(),
+      home: Connexion(),
     );
   }
 }
