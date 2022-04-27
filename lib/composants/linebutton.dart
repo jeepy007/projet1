@@ -9,7 +9,6 @@ GestureDetector linebutton({
   String ? titre,
   IconData ? icon,
   context,
-  //ignore: non_constant_identifier_names
   Color ? titre_color,
   double ? longueur,
   double ? largeur,

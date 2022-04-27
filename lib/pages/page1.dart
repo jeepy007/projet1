@@ -55,6 +55,7 @@ class _page1State extends State<page1> {
              ),
              
            ),
+           SizedBox(height: 20,),
           
             Wrap(
               spacing: 15,
@@ -115,6 +116,7 @@ class _page1State extends State<page1> {
 
                 
               ],),
+              SizedBox(height: 20),
               Column(
                 children: [
                   linebutton(titre_color: Colors.blue,
