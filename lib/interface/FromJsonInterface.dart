@@ -1,5 +1,5 @@
 
 
 abstract class FromJsonInterface {
-  dynamic FromJson(dynamicx){}
+  dynamic FromJson(dynamic x){}
 }
