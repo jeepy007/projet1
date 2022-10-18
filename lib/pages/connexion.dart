@@ -34,20 +34,12 @@ class _ConnexionState extends State<Connexion> {
                         ),
                     ),
                   ),
-                  
-                  
-                
 
-
-             
             ) ,
               SizedBox(height: 30),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: 
-              
-             
-                  
+                  child:                  
                   Center(
                     child: Container(
                       height: 50,
@@ -59,14 +51,7 @@ class _ConnexionState extends State<Connexion> {
                           ),
                         ),
                     ),
-                  ),
-                  
-                  
-               
-                  
-
-
-          
+                  ),          
                 ) ,
 
              SizedBox(height: 30),

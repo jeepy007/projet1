@@ -37,8 +37,11 @@ class _page1State extends State<page1> {
              child: CarouselSlider(items: Listimage.map((item) => Container(
                child: Center(
                  child:Image.asset(item, fit: BoxFit.cover,) ),
-             )).toList(), options: CarouselOptions(autoPlay:true, aspectRatio: 2.0 ,  
-             enlargeCenterPage: true)),
+             )).toList(), options: CarouselOptions(autoPlay:true, aspectRatio: 2.0 ,
+               
+             enlargeCenterPage: true
+             ),
+             ),
            ),
            SizedBox(height: 30,),
            Center(
